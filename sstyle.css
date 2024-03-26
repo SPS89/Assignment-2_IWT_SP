@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.home-section {
+    background-image: url('g.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #090909;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.highlight-text {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#typed-welcome {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 3s steps(20, end) forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.about-section {
+    background-image: url('g2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    background-color: #f2eded;
+    text-align: center;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+}
+
+.about-text {
+    margin-left: 50px;
+}
+
+.vbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.square-box {
+    width: 250px;
+    height: 250px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.square-box:hover {
+    transform: scale(1.1);
+}
+
+.square-box h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.portfolio-section {
+    background-image: url('g2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-item {
+    width: 300px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.projects-section {
+    background-image: url('g2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.projects-section h2 {
+    margin-bottom: 30px;
+}
+
+.lab-exercise {
+    background-image: url('g2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 30px;
+}
+
+.box h3 {
+    margin: 0;
+}
+
+.box p {
+    margin-top: 10px;
+}
+
+.contact-section {
+    background-image: url('g2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
